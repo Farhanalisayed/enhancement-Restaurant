@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar {
+  margin: 0px;
+  border-bottom: 2px solid rgb(165, 161, 161);
+  height: 15vh;
+}
+.resto-name {
+  color: rgb(17, 16, 16);
+  font-size: 30px;
+  margin: 4px;
+}
+.order-cont {
+  display: flex;
+  align-items: center;
+}
+.logout-btn {
+  background-color: red;
+  color: black;
+  margin-left: 15px;
+  font-size: 18px;
+  height: 30px;
+  padding: 5px;
+}
+.note {
+  color: gray;
+  font-size: 25px;
+}
+@media (max-width: 767px) {
+  .note {
+    display: none;
+  }
+}
+.cart-cont {
+  display: flex;
+}
+.orders-number {
+  margin-left: -12px;
+  background-color: orangered;
+  color: white;
+  border-radius: 14px;
+  font-size: 12px;
+  align-self: flex-start;
+  margin-top: -5px;
+}
+.icon {
+  font-size: 30px;
+}
+.cart-cont {
+  display: flex;
+  align-items: center;
+}

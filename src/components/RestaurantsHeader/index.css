@@ -1,0 +1,30 @@
+.Restaurants-header {
+  display: flex;
+  justify-content: space-around;
+  overflow-x: auto;
+  padding: 10px;
+  border-bottom: 1px solid darkseagreen;
+}
+
+.active-btn {
+  color: pink;
+  border: 0px;
+  border-bottom: 2px solid pink;
+  margin: 5px;
+  background-color: transparent;
+}
+
+.normal-btn {
+  color: balck;
+  border: 0px;
+  margin: 5px;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 767px) {
+  .Restaurants-header {
+    justify-content: flex-start;
+    padding-left: 15px;
+    margin-top: 10px;
+  }
+}

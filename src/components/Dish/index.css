@@ -1,0 +1,97 @@
+.dish-container {
+  display: flex;
+  padding: 7px;
+  border: 1px solid silver;
+  border-radius: 7px;
+  margin: 5px;
+}
+@media (min-width: 768px) {
+  .dish-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    border: 1px solid silver;
+    border-radius: 7px;
+    margin: 5px;
+  }
+}
+.left-sec {
+  display: flex;
+}
+.right-sec {
+  display: flex;
+}
+.btn {
+  background-color: transparent;
+  border: 0px;
+  color: white;
+  font-size: 15px;
+}
+.logo {
+  height: 15px;
+  width: 15px;
+  margin: 5px;
+}
+.name {
+  color: black;
+  font-size: 25px;
+  margin: 5px;
+}
+.price {
+  color: rgb(116, 79, 79);
+  font-size: 20px;
+  margin: 5px;
+}
+.description {
+  color: rgb(141, 139, 139);
+  font-size: 18px;
+  margin: 5px;
+}
+.quantity-cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(1, 63, 1);
+  margin: 5px;
+  height: 40px;
+  width: 100px;
+}
+.addBtn {
+  background-color: rgb(98, 66, 8);
+  color: rgb(234, 175, 175);
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+.quantity {
+  color: white;
+  font-size: 15px;
+}
+.available {
+  color: rgb(45, 45, 242);
+  font-size: 23px;
+  margin: 5px;
+}
+.unavailable {
+  color: red;
+  font-size: 23px;
+  margin: 5px;
+}
+.calories {
+  color: rgba(255, 255, 0, 0.697);
+  font-size: 20px;
+  margin: 5px;
+  align-self: center;
+}
+.dish-img {
+  border-radius: 7px;
+  margin: 5px;
+  height: 35px;
+  width: 35px;
+  margin-top: 10px;
+}
+.details-cont {
+  width: 20%;
+}
